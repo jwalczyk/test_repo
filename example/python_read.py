@@ -9,3 +9,4 @@ print fp.read()
 fp.close()
 
 # gui stream test
+# gui test for seq no
