@@ -1,4 +1,5 @@
 #!/bin/bash
+gh_token=$1
 random_string=$(cat /dev/urandom | env LC_CTYPE=C tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
 
 git checkout -b branch-$random_string
@@ -12,7 +13,7 @@ git checkout master
 
 curl -X POST \
   https://api.github.com/repos/jwalczyk/test_repo/pulls \
-  -H 'authorization: token b027811325490aa1c77c830e7736b074ded96e7f' \
+  -H 'authorization: token '"$gh_token"' ' \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
   -d '{
