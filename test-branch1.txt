@@ -41,8 +41,6 @@ _cores: 43
 2017-11-09 13:15:29,938 kc.kafka_util ERROR    Message returned error KafkaError{code=_TIMED_OUT_QUEUE,val=-166,str="GroupCoordinator response error: Local: Timed out in queue"}
 2017-11-09 13:15:29,938 kc.kafka_util INFO     Polling for Kafka message
 2017-11-09 13:15:29,938 kc.kafka_util INFO     Polling for Kafka message
-%3|1510233384.891|FAIL|3890012606816639221#consumer-1| [thrd:sasl_ssl://kafka02-prod01.messagehub.services.us-south.bluemix.]: sasl_ssl://kafka02-prod01.messagehub.services.us-south.bluemix.net:9093/1: 1 request(s) timed out: disconnect
-%3|1510233384.891|ERROR|3890012606816639221#consumer-1| [thrd:sasl_ssl://kafka02-prod01.messagehub.services.us-south.bluemix.]: sasl_ssl://kafka02-prod01.messagehub.services.us-south.bluemix.net:9093/1: 1 request(s) timed out: disconnect
 %3|1510233390.007|FAIL|3890012606816639221#consumer-1| [thrd:sasl_ssl://kafka07-prod01.messagehub.services.us-south.bluemix.]: sasl_ssl://kafka07-prod01.messagehub.services.us-south.bluemix.net:9093/6: 1 request(s) timed out: disconnect
 %3|1510233390.007|ERROR|3890012606816639221#consumer-1| [thrd:sasl_ssl://kafka07-prod01.messagehub.services.us-south.bluemix.]: sasl_ssl://kafka07-prod01.messagehub.services.us-south.bluemix.net:9093/6: 1 request(s) timed out: disconnect
 %3|1510233444.960|FAIL|3890012606816639221#consumer-1| [thrd:sasl_ssl://kafka09-prod01.messagehub.services.us-south.bluemix.]: sasl_ssl://kafka09-prod01.messagehub.services.us-south.bluemix.net:9093/8: 1 request(s) timed out: disconnect
