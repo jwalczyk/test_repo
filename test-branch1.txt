@@ -4,7 +4,6 @@ _cores: 43
 2017-11-09 12:54:22,730 kc           INFO     Using Messagehub
 2017-11-09 12:54:22,730 kc           INFO     Using Messagehub
 2017-11-09 12:54:22,731 kc.kafka_util INFO     Connecting to Kafka
-2017-11-09 12:54:22,731 kc.kafka_util INFO     Connecting to Kafka
 2017-11-09 12:54:22,735 kc.kafka_util INFO     Kafka consumer instantiated
 2017-11-09 12:54:22,735 kc.kafka_util INFO     Kafka consumer instantiated
 2017-11-09 12:54:22,735 kc.kafka_util INFO     Subscribing to topics [u'astro-scheduler-messages.astro-scheduler-adtech-1-dev']
@@ -55,4 +54,5 @@ _cores: 43
 2017-11-09 13:17:37,204 kc.kafka_util INFO     Polling for Kafka message
 
 sdlfksdflksdj
+sdlkfjsdlfkjdsflk
 
