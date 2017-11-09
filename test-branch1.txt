@@ -1,0 +1,58 @@
+_cores: 43
+2017-11-09 12:54:22,665 kc.astro_util INFO     Hitting astro API: https://astrodev1.mybluemix.net/v1/config
+2017-11-09 12:54:22,665 kc.astro_util INFO     Hitting astro API: https://astrodev1.mybluemix.net/v1/config
+2017-11-09 12:54:22,730 kc           INFO     Using Messagehub
+2017-11-09 12:54:22,730 kc           INFO     Using Messagehub
+2017-11-09 12:54:22,731 kc.kafka_util INFO     Connecting to Kafka
+2017-11-09 12:54:22,735 kc.kafka_util INFO     Kafka consumer instantiated
+2017-11-09 12:54:22,735 kc.kafka_util INFO     Kafka consumer instantiated
+2017-11-09 12:54:22,735 kc.kafka_util INFO     Subscribing to topics [u'astro-scheduler-messages.astro-scheduler-adtech-1-dev']
+2017-11-09 12:54:22,735 kc.kafka_util INFO     Subscribing to topics [u'astro-scheduler-messages.astro-scheduler-adtech-1-dev']
+2017-11-09 12:54:23,272 kc           INFO     LAUNCHING Streaming job: stream_4
+2017-11-09 12:54:23,272 kc           INFO     LAUNCHING Streaming job: stream_4
+2017-11-09 12:54:23,273 kc           INFO     LAUNCHING Metric job: metric_2
+2017-11-09 12:54:23,273 kc           INFO     LAUNCHING Metric job: metric_2
+2017-11-09 12:54:23,300 kc           INFO     Adding job to running processes: stream_4
+2017-11-09 12:54:23,300 kc           INFO     Adding job to running processes: stream_4
+2017-11-09 12:54:23,306 kc           INFO     Adding job to running processes: metric_2
+2017-11-09 12:54:23,306 kc           INFO     Adding job to running processes: metric_2
+2017-11-09 12:54:23,399 kc           INFO     api_kc_rudi_2017_11_09_12_54_22 consuming messages
+2017-11-09 12:54:23,399 kc           INFO     api_kc_rudi_2017_11_09_12_54_22 consuming messages
+2017-11-09 12:54:23,663 kc.kafka_util INFO     Running recovery <lambda>
+2017-11-09 12:54:23,663 kc.kafka_util INFO     Running recovery <lambda>
+2017-11-09 12:54:23,663 kc.kafka_util INFO     Polling for Kafka message
+2017-11-09 12:54:23,663 kc.kafka_util INFO     Polling for Kafka message
+2017-11-09 12:54:26,190 kc.kafka_util INFO     Received new Kafka message:
+2017-11-09 12:54:26,190 kc.kafka_util INFO     Received new Kafka message:
+2017-11-09 12:54:26,191 kc.kafka_util ERROR    Message returned error KafkaError{code=_PARTITION_EOF,val=-191,str="Broker: No more messages"}
+2017-11-09 12:54:26,191 kc.kafka_util ERROR    Message returned error KafkaError{code=_PARTITION_EOF,val=-191,str="Broker: No more messages"}
+2017-11-09 12:54:26,191 kc.kafka_util INFO     Polling for Kafka message
+2017-11-09 12:54:26,191 kc.kafka_util INFO     Polling for Kafka message
+%3|1510232722.803|FAIL|3890012606816639221#consumer-1| [thrd:sasl_ssl://kafka02-prod01.messagehub.services.us-south.bluemix.]: sasl_ssl://kafka02-prod01.messagehub.services.us-south.bluemix.net:9093/1: 1 request(s) timed out: disconnect
+%3|1510232722.803|ERROR|3890012606816639221#consumer-1| [thrd:sasl_ssl://kafka02-prod01.messagehub.services.us-south.bluemix.]: sasl_ssl://kafka02-prod01.messagehub.services.us-south.bluemix.net:9093/1: 1 request(s) timed out: disconnect
+%3|1510233322.805|FAIL|3890012606816639221#consumer-1| [thrd:sasl_ssl://kafka01-prod01.messagehub.services.us-south.bluemix.]: sasl_ssl://kafka01-prod01.messagehub.services.us-south.bluemix.net:9093/0: 1 request(s) timed out: disconnect
+%3|1510233322.806|ERROR|3890012606816639221#consumer-1| [thrd:sasl_ssl://kafka01-prod01.messagehub.services.us-south.bluemix.]: sasl_ssl://kafka01-prod01.messagehub.services.us-south.bluemix.net:9093/0: 1 request(s) timed out: disconnect
+%3|1510233324.821|FAIL|3890012606816639221#consumer-1| [thrd:sasl_ssl://kafka08-prod01.messagehub.services.us-south.bluemix.]: sasl_ssl://kafka08-prod01.messagehub.services.us-south.bluemix.net:9093/7: 1 request(s) timed out: disconnect
+%3|1510233324.821|ERROR|3890012606816639221#consumer-1| [thrd:sasl_ssl://kafka08-prod01.messagehub.services.us-south.bluemix.]: sasl_ssl://kafka08-prod01.messagehub.services.us-south.bluemix.net:9093/7: 1 request(s) timed out: disconnect
+2017-11-09 13:15:29,937 kc.kafka_util INFO     Received new Kafka message:
+2017-11-09 13:15:29,937 kc.kafka_util INFO     Received new Kafka message:
+2017-11-09 13:15:29,938 kc.kafka_util ERROR    Message returned error KafkaError{code=_TIMED_OUT_QUEUE,val=-166,str="GroupCoordinator response error: Local: Timed out in queue"}
+2017-11-09 13:15:29,938 kc.kafka_util ERROR    Message returned error KafkaError{code=_TIMED_OUT_QUEUE,val=-166,str="GroupCoordinator response error: Local: Timed out in queue"}
+2017-11-09 13:15:29,938 kc.kafka_util INFO     Polling for Kafka message
+2017-11-09 13:15:29,938 kc.kafka_util INFO     Polling for Kafka message
+%3|1510233390.007|FAIL|3890012606816639221#consumer-1| [thrd:sasl_ssl://kafka07-prod01.messagehub.services.us-south.bluemix.]: sasl_ssl://kafka07-prod01.messagehub.services.us-south.bluemix.net:9093/6: 1 request(s) timed out: disconnect
+%3|1510233390.007|ERROR|3890012606816639221#consumer-1| [thrd:sasl_ssl://kafka07-prod01.messagehub.services.us-south.bluemix.]: sasl_ssl://kafka07-prod01.messagehub.services.us-south.bluemix.net:9093/6: 1 request(s) timed out: disconnect
+%3|1510233444.960|FAIL|3890012606816639221#consumer-1| [thrd:sasl_ssl://kafka09-prod01.messagehub.services.us-south.bluemix.]: sasl_ssl://kafka09-prod01.messagehub.services.us-south.bluemix.net:9093/8: 1 request(s) timed out: disconnect
+%3|1510233444.960|ERROR|3890012606816639221#consumer-1| [thrd:sasl_ssl://kafka09-prod01.messagehub.services.us-south.bluemix.]: sasl_ssl://kafka09-prod01.messagehub.services.us-south.bluemix.net:9093/8: 1 request(s) timed out: disconnect
+%3|1510233455.194|FAIL|3890012606816639221#consumer-1| [thrd:sasl_ssl://kafka06-prod01.messagehub.services.us-south.bluemix.]: sasl_ssl://kafka06-prod01.messagehub.services.us-south.bluemix.net:9093/5: 1 request(s) timed out: disconnect
+%3|1510233455.194|ERROR|3890012606816639221#consumer-1| [thrd:sasl_ssl://kafka06-prod01.messagehub.services.us-south.bluemix.]: sasl_ssl://kafka06-prod01.messagehub.services.us-south.bluemix.net:9093/5: 1 request(s) timed out: disconnect
+2017-11-09 13:17:37,203 kc.kafka_util INFO     Received new Kafka message:
+2017-11-09 13:17:37,203 kc.kafka_util INFO     Received new Kafka message:
+2017-11-09 13:17:37,203 kc.kafka_util ERROR    Message returned error KafkaError{code=_PARTITION_EOF,val=-191,str="Broker: No more messages"}
+2017-11-09 13:17:37,203 kc.kafka_util ERROR    Message returned error KafkaError{code=_PARTITION_EOF,val=-191,str="Broker: No more messages"}
+2017-11-09 13:17:37,204 kc.kafka_util INFO     Polling for Kafka message
+2017-11-09 13:17:37,204 kc.kafka_util INFO     Polling for Kafka message
+
+sdlfksdflksdj
+sdlkfjsdlfkjdsflk
+
