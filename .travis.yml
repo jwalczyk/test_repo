@@ -1,0 +1,26 @@
+---
+notifications:
+  email: false
+
+language: python
+python:
+  - '2.7'
+node_js: 6.11.3
+
+env:
+  global:
+    - BUILD_NUMBER=$TRAVIS_BUILD_NUMBER
+    - ORGANIZATION_NAME=default
+    - LOGICAL_APP_NAME=ww_test_repo
+
+before_install:
+  # workaround for issue  https://github.com/travis-ci/travis-ci/issues/9112
+  - sudo apt-get -q update --option Acquire::Retries=100 --option Acquire::http::Timeout="60"
+
+install:
+
+before_script:
+
+after_success:
+
+after_failure:
